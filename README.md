@@ -1,9 +1,12 @@
-# atabela = [
+tabela = [
     [10, 20, 30],
     [40, 50 ,60],
     [70, 80, 90]
 
 ]
- print[" o numero central é:", miue [1][1]]
- for linha in miue:
-     for
+ valoe : 0
+ for l in range (1):
+     for c range (2):
+
+         valor = valor + corredores [l][c]
+         print ("o valor total é :" , valor
