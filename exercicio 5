@@ -1,0 +1,21 @@
+cinema = [
+    [0, 0, 0],
+    [0, 0, 0],
+    [0, 0, 0]
+]
+
+print("--- BEM-VINDO AO CINEMA VIP ---")
+
+linha = int(input("Digite a Linha (0 a 2): "))
+coluna = int(input("Digite a Coluna (0 a 2): "))
+
+
+if cinema[linha][coluna] == 0:
+    cinema[linha][coluna] = 1
+    print("\nReserva feita com sucesso!")
+else:
+    print("\nErro: Esta cadeira já está ocupada.")
+
+print("\nMapa da Sala (0=Livre, 1=Ocupado):")
+for fita in cinema:
+    print(fita)
