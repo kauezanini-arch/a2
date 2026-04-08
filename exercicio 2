@@ -3,6 +3,6 @@ corredores = [
     [12.00, 3.00, 8.00]
 ]
 
-total = sum(sum(linha) for linha in corredores)
+soma_total = sum(sum(linha) for linha in corredores)
 
-print(f"O valor total dos produtos é: R$ {total:.2f}")
+print(f"O valor total dos produtos é: R$ {soma_total:.2f}")
