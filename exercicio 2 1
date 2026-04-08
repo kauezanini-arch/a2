@@ -1,0 +1,13 @@
+boletim = [
+    [8.0, 7.5, 9.0],
+    [5.0, 4.5, 6.0], 
+    [9.5, 8.5, 10.0] 
+]
+for i in range (len(boletim)):
+ soma = 0
+
+ for nota in boletim [i] :
+      soma += nota
+
+ media = soma / len(boletim[i])
+ print(f"media do aluno {i}: {media:.2f}")
