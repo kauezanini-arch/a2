@@ -1,0 +1,13 @@
+sensores = [
+    [25, -5, 22],
+    [20, 21, -2],
+    [-8, 24, 26]
+]
+
+for linha in range(3):
+    for coluna in range(3):
+        if sensores[linha][coluna] < 0:
+            sensores[linha][coluna] = 0
+
+for linha in sensores:
+    print(linha)
