@@ -1,0 +1,11 @@
+mapa_tesouro = [
+    [0, 0, 1, 0],
+    [0, 1, 1, 0],
+    [0, 0, 9, 0],
+    [1, 0, 0, 0]
+]
+
+for i in range(4):
+    for j in range(4):
+        if mapa_tesouro[i][j] == 9:
+            print(f"\nTesouro encontrado! Cuidado pirata, ele está enterrado na Linha {i} e Coluna {j}!")
